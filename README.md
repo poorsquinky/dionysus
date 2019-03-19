@@ -13,7 +13,7 @@ Dionysus's controlled lights consist of:
 
 The control hardware is:
 * [Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/)
-* [Adafruit I2C PWM module](https://www.adafruit.com/product/815) (PCA9685) with a bunch of power MOSFETs hanging off it, divided into 5x RGB channels (hexagons), and 1x monochrome channel (thrusters)
+* [Adafruit I²C PWM module](https://www.adafruit.com/product/815) (PCA9685) with a bunch of power MOSFETs hanging off it, divided into 5x RGB channels (hexagons), and 1x monochrome channel (thrusters)
 * A cheap logic-level converter from Amazon
 * A cheap USB audio interface from Amazon
 
