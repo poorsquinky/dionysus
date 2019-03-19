@@ -22,6 +22,10 @@ On the software side, we're taking advantage of:
 * Adafruit's [PCA9685 Python library](https://github.com/adafruit/Adafruit_Python_PCA9685)
 * [aubio](https://github.com/aubio/aubio) for music analysis and beat detection
 
+
+The software selects a random color palette and display mode for the chase lights, has some weird little routines that work with beat detection and peak volume levels, and uses it all to synchronize some interesting color displays to the vehicle's
+sound system.  It was written in a hurry and crashes a lot, so a wrapper script restarts it when needed.  But it looks great.
+
 -----
 
 Hopefully we can add more info (setup, photos and video, etc.) soon!
